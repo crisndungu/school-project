@@ -1,0 +1,337 @@
+@viewport{
+    width: device-width;
+    zoom: 1;
+}
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+}
+body{
+    color:rgb(34, 34, 48);
+    background-image:url('undraw_education_f8ru.svg');
+    height: 100vh;
+    max-height: 100%;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.navbar{
+    text-align: center;
+    background: rgba(0,100,0);
+    background-size: 2px;
+    display: hidden;
+    width: 100%;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
+    color:#fff;
+}
+.navbar ul li{
+    margin: 15px;
+    padding:15px;
+    width:120px;
+}
+.active , .navbar ul li:hover{
+    background:#2bab0d;
+    border-radius:3px;
+
+}
+.navbar .fa{
+    margin-right:8px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.submenu1{
+    display:none;
+}
+.navbar ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left:-15px;
+}
+.navbar ul li:hover .submenu1 ul{
+    display: block;
+    margin:10px;
+    font-size: 12px;
+}
+.navbar ul li:hover .submenu1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    border-radius:0;
+    text-align:left ;
+    background:transparent;
+}
+.navbar ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .submenu1 ul li a:hover{
+    color:#b2ff00;
+}
+/*page wrapper*/
+.page-wrapper{
+    min-height: 100%;
+
+
+}
+.left-column{
+    float: left;
+    width: 65%;
+}
+.right-column{
+    float: right;
+    width: 35%;
+    padding-left: 20px;
+    margin-top: 100px;
+    background-color: white;
+    
+}
+.right-column .card{
+    background-color:white;
+    margin-left: 20px;
+    color: blue;
+    overflow: hidden;
+}
+.right-column .cardright{
+    background-color: rgb(87, 78, 78);
+    margin-left: 20px;
+    color: rgb(0, 255, 200);
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+.course{
+    text-align: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.course input{
+    margin-top: 10px;
+    inline-size: 400px;
+    padding:10px;
+    background-color: blue;
+}
+.course button{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 150px;
+    background-color: red;
+}
+
+/*social media icons*/
+.media ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.media ul li{
+    display: block;
+    position: relative;
+    width: 60px;
+    margin:0 15px;
+    margin-top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    background: #e7dfdf;
+    transition:.5s;
+    color: rgb(28, 8, 206);
+    border-width: 20px;
+
+}
+.media ul li:hover
+{
+    background-color:red;
+    border-radius: 50%;
+    transform: translateX(1.2px);
+}
+
+/*social media icons*/
+
+.card{
+    padding: 20px;
+    margin-top: 0;
+    background-color: violet;
+
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.left-column .card{
+    width:750px ;
+    height: 380px;
+}
+.left-column img{
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+}
+.left-column #card2{
+    background-color: rgb(60, 60, 151);
+    margin-top: 20px;
+    height: 380px;
+    width:400px;
+    margin-bottom: 50px;
+}
+#card2 ul{
+    list-style: none;
+    padding: 20px;
+}
+#card2 ul li{
+    margin-top: 15px;
+    font-size: 30px;
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted rgb(8, 235, 39);
+    border-radius:0;
+    text-align:left ;
+    background:transparent;
+    color: rgb(13, 219, 13);
+    font-family:'Times New Roman', Times, serif;
+}
+#card2 ul li:last-child{
+    border-bottom: none;
+}
+#card2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    height: 150px;
+    background-color: #303036;
+    color: rgba(225, 33, 231, 0.37);
+    margin: top -90px;
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    padding-top:20px;
+    width: 100%;
+    margin-bottom: opx;
+}
+.Apply button{
+    width:100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    font-size: 17px;
+}
+.below{
+    width: 100%;
+    position:relative;
+
+    
+}
+
+
+#a
+{
+    display: table;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+#row3
+{
+    margin: 10px;
+    background-color: none;
+    width: 100%;
+    padding-left: opx;
+    margin-bottom: 0%;
+    margin-left: -10px;
+}
+#column1
+{
+    padding: 0px;
+    border-left: 0;
+    border-right: 15px solid;
+    background-color:red;
+    display: table-cell;
+    height: 350px;
+    width: 1500px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#column2
+{
+    padding: 20px;
+    border-left: 0;
+    border-right: 15px solid;
+    background-color:gray;
+    display: table-cell;
+    height: 350px;
+    width: 750px;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+    color:rgb(7, 243, 7);
+}
+#column2 .media{
+    align-items: center;
+    margin-left: 150px;
+}
+#column3
+{
+    padding: 0px;
+    border-left: 0;
+    border-right: 15px solid;
+    background-color:red;
+    display: table-cell;
+    height: 350px;
+    width: 750px;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: center;
+}
+.news{
+    text-align: center;
+    color: rgb(111, 15, 236);
+    background-color: gray;
+    height: 100%;
+    justify-content: center;
+    padding-top:150px;
+    background-image: url('newsletter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news input{
+    margin-top: 20px;
+    inline-size: 300px;
+    padding:15px;
+}
+.news button{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 150px;
+}
+.news i{
+    width: 50px;
+    height: 46px;
+    
+    line-height: 40px;
+    background: rgb(14, 13, 13);
+}

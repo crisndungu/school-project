@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        @viewport{
+            width: device-width;
+            zoom: 1;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url('undraw_certification_aif8.svg');
+            color: white;
+            background-size: contain;
+            background-position: center;
+            height: 100vh;
+            max-height: 100%;
+            background-repeat: no-repeat;
+        }
+        .form{
+            margin-top: 100px;
+            margin-left: 450px;
+            position: absolute;
+            border-radius:3%;
+            background-color:rgb(175, 157, 157);
+            padding: 30px 40px;
+            color: black;
+            width: 400px;
+            max-width: 100%;
+            overflow: hidden;
+            padding-left: 20px;
+            max-height: 100%;
+        }
+        .lname{
+            margin-top: 10px;
+            
+        }
+        .lname input{
+            inline-size: 250px;
+        }
+        #fname{
+            inline-size: 250px;
+        }
+        .gender{
+            margin-top: 10px;
+        }
+        .birth{
+            margin-top: 10px;
+        }
+        .study{
+            margin-top: 10px;
+        }
+        .contacts input
+        {
+            margin-top: 10px;
+            inline-size: 250px;
+
+        }
+        .header{
+            padding: 20px 40px;
+            border-bottom: 1px;
+        }
+        .header h2{
+            margin: 0;
+            text-align: center;
+            font-family: monospace;
+            color: rgb(139, 26, 204);
+        }
+        .submit{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .submit button:hover {
+            background-color:rgb(10, 243, 10);
+        }
+        #day{
+            margin-top: 10px;
+        }
+    
+
+        
+    </style>
+    <div class="form">
+       <form> 
+           <div class="header">
+        <h2><centre>STUDENT REGISTRATION</centre> <br>
+            <center>FORM</center></h2> 
+           </div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname">
+        <div class="lname">
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        </div> 
+        <br>
+    
+        <label for="Gender">Gender:</label><br>
+        <label for="female">Female</label>
+        <input type="radio" value="female" id="female" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="male" id="male" name="gender">
+      
+        <br>
+        <div class="birth">
+            DATE OF BIRTH: <br>
+            <select name="Day" id="Day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            <select name="Month" id="month">
+                <option value="">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="october">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select name="Year" id="Year">
+                <option value="">Year</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+            </select>
+        </div>
+        <div class="study">
+        YEAR OF STUDY: <br>
+        <select name="Year" id="Year">
+            <option value="">Year</option>
+            <option value="YEAR 1">YEAR 1</option>
+            <option value="YEAR 2">YEAR 2</option>
+            <option value="YEAR 3">YEAR 3</option>
+            <option value="YEAR 4">YEAR 4</option>
+            </select> <br>
+        </div>
+        <div class="contacts">
+            <label for="email">Email:</label><br>
+            <input type="text" placeholder="email" name="email"><br>
+            <label for="email">Phone:</label><br>
+            <input type="text" placeholder="Phone" name="phone" maxlength="10 characters">
+        </div>
+        <div class="submit">
+        <a href ="login.html"><button>SUBMIT</button></a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

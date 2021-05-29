@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <form name="calc">
+        Number 1:<br><input type="text" name="num1"> <br>
+        Number 2:<br><input type="text" name="num2"> <br>
+        Answer:<br><input type="text" name="answer"> <br>
+        <input type="button" value="Add" onclick="sumValues()">
+        <input type="button" value="Subtract" onclick="subtractValues()">
+        <input type="button" value="Divide" onclick="divideValues()">
+        <input type="button" value="Multiply" onclick="multiplyValues()">
+
+
+
+</form>
+<script>
+    function sumValues()
+    {
+        var num1,num2,answer;
+        num1=Number(document.calc.num1.value);
+        num2=Number(document.calc.num2.value);
+        answer=num1+num2;
+        document.calc.answer.value=answer;
+    }
+    function subtractValues()
+    {
+        var num1,num2,answer;
+        num1=Number(document.calc.num1.value);
+        num2=Number(document.calc.num2.value);
+        answer=num1-num2;
+        document.calc.answer.value=answer;
+    }
+    function divideValues()
+    {
+        var num1,num2,answer;
+        num1=Number(document.calc.num1.value);
+        num2=Number(document.calc.num2.value);
+        answer=num1/num2;
+        document.calc.answer.value=answer;
+    }
+    function multiplyValues()
+    {
+        var num1,num2,answer;
+        num1=Number(document.calc.num1.value);
+        num2=Number(document.calc.num2.value);
+        answer=num1*num2;
+        document.calc.answer.value=answer;
+    }
+</script>
+</body>
+</html>

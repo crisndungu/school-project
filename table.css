@@ -1,0 +1,23 @@
+
+body{
+    background:white;
+    align-content: center;
+    background-image: url('undraw_Timeline_re_aw6g.svg');
+    height: 100vh;
+    max-height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+table{
+    color: rgb(12, 12, 12);
+    margin-left:500px;
+    margin-top: 50px;
+    background: rgb(172, 164, 164);
+    max-height: 100%;
+}
+caption{
+    color: rgb(17, 94, 43);
+}
